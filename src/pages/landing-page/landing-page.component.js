@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./landing-page.styles.css";
+import "./landing-page.styles.scss";
 import logoWhite from "../../assets/img/logo-white.png";
 
 const LandingPage = () => (
@@ -15,7 +15,7 @@ const LandingPage = () => (
                 <span class="heading-primary--sub">is where life happens</span>
             </h1>
 
-            <a href="/" class="btn btn--white btn--animated">Discover what's inside</a>
+            <a href="/" class="btn btn--white btn--animated">Discover what's outside</a>
         </div>
     </header>
 )
