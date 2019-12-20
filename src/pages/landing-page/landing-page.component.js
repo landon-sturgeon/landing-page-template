@@ -4,7 +4,7 @@ import "./landing-page.styles.scss";
 import logoWhite from "../../assets/img/logo-white.png";
 
 const LandingPage = () => (
-    <header class="header">
+    <div class="header">
         <div class="header__logo-box">
             <img src={logoWhite} alt="logo" class="header__logo"/>
         </div>
@@ -17,7 +17,7 @@ const LandingPage = () => (
 
             <a href="/" class="btn btn--white btn--animated">Discover what's outside</a>
         </div>
-    </header>
+    </div>
 )
 
 export default LandingPage;
