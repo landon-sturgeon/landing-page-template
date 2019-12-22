@@ -5,3 +5,10 @@
         clear: both;
     }
 }
+
+@mixin popUpOnHover {
+    &:hover {
+        transform: translateY(-0.3rem);
+        box-shadow: 0 1rem 2rem rgba($color-black,0.2);
+    }
+}
