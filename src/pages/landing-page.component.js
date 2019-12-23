@@ -104,6 +104,47 @@ const LandingPage = () => (
 
                 </div>
             </section>
+
+            <section className="section-tours">
+                <div className="u-center-text u-margin-bottom-big">
+                    <h2 className="heading-secondary">
+                        Most popular tours
+                    </h2>
+                </div>
+
+                <div className="row">
+                    <div className="col-1-of-3">
+                        <div className="card">
+                            <div className="card__side card__side--front card__side--front--1">
+                                card 1 side 1
+                            </div>
+                            <div className="card__side card__side--back card__side--back--1">
+                                card 1 side 2
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-1-of-3">
+                        <div className="card">
+                            <div className="card__side card__side--front card__side--front--2">
+                                card 2 side 1
+                            </div>
+                            <div className="card__side card__side--back card__side--back--2">
+                                card 2 side 2
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-1-of-3">
+                        <div className="card">
+                            <div className="card__side card__side--front card__side--front--3">
+                                card 3 side 1
+                            </div>
+                            <div className="card__side card__side--back card__side--back--3">
+                                card 3 side 2
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
         {/* <section class="grid-test">
