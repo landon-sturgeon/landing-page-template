@@ -54,11 +54,54 @@ const LandingPage = () => (
                     </div>
                     <div class="col-1-of-2">
                         <div className="composition">
-                            <img src={nat1} alt="Photo 1" className="composition__photo composition__photo--p1"/>
-                            <img src={nat2} alt="Photo 2" className="composition__photo composition__photo--p2"/>
-                            <img src={nat3} alt="Photo 3" className="composition__photo composition__photo--p3"/>
+                            <img src={nat1} alt="Photo1" className="composition__photo composition__photo--p1"/>
+                            <img src={nat2} alt="Photo2" className="composition__photo composition__photo--p2"/>
+                            <img src={nat3} alt="Photo3" className="composition__photo composition__photo--p3"/>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section class="section-features">
+                <i class="icon-basic-world"></i>
+                <div className="row">
+                    <div className="col-1-of-4">
+                        <div className="feature-box">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 className="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                            <p className="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-1-of-4">
+                        <div className="feature-box">
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 className="heading-tertiary u-margin-bottom-small">meet nature</h3>
+                            <p className="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-1-of-4">
+                        <div className="feature-box">
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 className="heading-tertiary u-margin-bottom-small">find your way</h3>
+                            <p className="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-1-of-4">
+                        <div className="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 className="heading-tertiary u-margin-bottom-small">live a healthier life</h3>
+                            <p className="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
             </section>
         </main>
