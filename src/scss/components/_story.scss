@@ -10,8 +10,8 @@
     transform: skewX(-12deg);
 
     &__shape {
-        width: 15rem;
-        height: 15rem;
+        width: 16rem;
+        height: 16rem;
         float: left;
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
@@ -19,13 +19,13 @@
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
         transform: translateX(-3rem) skewX(12deg);
+        overflow: hidden;
         position: relative;
     }
 
     &__img {
         height: 100%;
         transform: translateX(-4rem) scale(1.4);
-        backface-visibility: hidden;
         transition: all 0.5s;
     }
 
@@ -45,7 +45,6 @@
         text-align: center;
         opacity: 0;
         transition: all 0.5s;
-        backface-visibility: hidden;
     }
 
     &:hover &__caption {
@@ -55,6 +54,6 @@
 
     &:hover &__img {
         transform: translateX(-4rem) scale(1);
-        filter: blur(3px);
+        filter: blur(3px) brightness(80%);
     }
 }

@@ -7,6 +7,7 @@ import nat1 from "../assets/img/nat-1-large.jpg";
 import nat2 from "../assets/img/nat-2-large.jpg";
 import nat3 from "../assets/img/nat-3-large.jpg";
 import nat8 from "../assets/img/nat-8.jpg";
+import nat9 from "../assets/img/nat-9.jpg";
 
 const LandingPage = () => (
     <div>
@@ -230,6 +231,23 @@ const LandingPage = () => (
                             </p>
                         </div>
                     </div>
+                </div>
+                <div className="row">
+                    <div className="story">
+                        <figure className="story__shape">
+                            <img class="story__img" src={nat9} alt="person on a tour"/>
+                            <figcaption className="story__caption">jack wilson</figcaption>
+                        </figure>
+                        <div className="story__text">
+                            <h3 className="heading-tertiary u-margin-bottom-small">this would be some other user's testimonial</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="u-center-text u-margin-top-huge">
+                    <a href="/" className="btn btn--green">See all stories</a>
                 </div>
             </section>
         </main>
