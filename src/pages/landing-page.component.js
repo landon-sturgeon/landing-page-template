@@ -342,6 +342,23 @@ const LandingPage = () => (
                     </div>
                 </div>
             </footer>
+
+            <div className="popup">
+                <div className="popup__content">
+                    <div className="popup__left">
+                        <img src={nat8} alt="TourPhoto" className="popup__img"/>
+                        <img src={nat9} alt="TourPhoto" className="popup__img"/>
+                    </div>
+                    <div className="popup__right">
+                        <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                        <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; please read these terms before booking</h3>
+                        <p className="popup__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <a href="/" className="btn btn--green">book now</a>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 )
