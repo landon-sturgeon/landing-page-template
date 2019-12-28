@@ -43,7 +43,7 @@ const LandingPage = () => (
                     <span class="heading-primary--sub">is where life happens</span>
                 </h1>
 
-                <Button buttonLabel={"Discover what's outside"} hreference={"/"} />
+                <Button buttonLabel={"Discover what's outside"} hreference={"#section-tours"} />
             </div>
         </header>
 
@@ -128,7 +128,7 @@ const LandingPage = () => (
                 </div>
             </section>
 
-            <section className="section-tours">
+            <section className="section-tours" id="section-tours">
                 <div className="u-center-text u-margin-bottom-big">
                     <h2 className="heading-secondary">
                         Most popular tours
@@ -161,7 +161,7 @@ const LandingPage = () => (
                                         <p className="card__price--only">Only</p>
                                         <p className="card__price--value">$297</p>
                                     </div>
-                                    <a href="/" className="btn btn--white">book now</a>
+                                    <a href="#popup" className="btn btn--white">book now</a>
                                 </div>
                             </div>
                         </div>
@@ -191,7 +191,7 @@ const LandingPage = () => (
                                         <p className="card__price--only">Only</p>
                                         <p className="card__price--value">$497</p>
                                     </div>
-                                    <a href="/" className="btn btn--white">book now</a>
+                                    <a href="#popup" className="btn btn--white">book now</a>
                                 </div>
                             </div>
                         </div>
@@ -221,7 +221,7 @@ const LandingPage = () => (
                                         <p className="card__price--only">Only</p>
                                         <p className="card__price--value">$897</p>
                                     </div>
-                                    <a href="/" className="btn btn--white">book now</a>
+                                    <a href="#popup" className="btn btn--white">book now</a>
                                 </div>
                             </div>
                         </div>
@@ -343,13 +343,14 @@ const LandingPage = () => (
                 </div>
             </footer>
 
-            <div className="popup">
+            <div className="popup" id="popup">
                 <div className="popup__content">
                     <div className="popup__left">
                         <img src={nat8} alt="TourPhoto" className="popup__img"/>
                         <img src={nat9} alt="TourPhoto" className="popup__img"/>
                     </div>
                     <div className="popup__right">
+                        <a href="#section-tours" className="popup__close">&times;</a>
                         <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
                         <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; please read these terms before booking</h3>
                         <p className="popup__text">
