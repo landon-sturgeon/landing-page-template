@@ -32,15 +32,15 @@ const LandingPage = () => (
             </nav>
         </div>
 
-        <header class="header">
-            <div class="header__logo-box">
-                <img src={logoWhite} alt="logo" class="header__logo"/>
+        <header className="header">
+            <div className="header__logo-box">
+                <img src={logoWhite} alt="logo" className="header__logo"/>
             </div>
 
-            <div class="header__text-box">
-                <h1 class="heading-primary">
-                    <span class="heading-primary--main">Outdoors</span>
-                    <span class="heading-primary--sub">is where life happens</span>
+            <div className="header__text-box">
+                <h1 className="heading-primary">
+                    <span className="heading-primary--main">Outdoors</span>
+                    <span className="heading-primary--sub">is where life happens</span>
                 </h1>
 
                 <Button buttonLabel={"Discover what's outside"} hreference={"#section-tours"} />
@@ -55,19 +55,19 @@ const LandingPage = () => (
                     </h2>
                 </div>
 
-                <div class="row">
-                    <div class="col-1-of-2">
+                <div className="row">
+                    <div className="col-1-of-2">
                         <h3 className="heading-tertiary u-margin-bottom-small">
                             You're going to love this about page
                         </h3>
-                        <p class="paragraph">
+                        <p className="paragraph">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est repudiandae qui rerum omnis illo suscipit quis mollitia, quisquam quidem doloribus illum dolore in.
                         </p>
 
                         <h3 className="heading-tertiary u-margin-bottom-small">
                             Take it and reuse it. That's why it's here
                         </h3>
-                        <p class="paragraph">
+                        <p className="paragraph">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est repudiandae qui rerum.
                         </p>
 
@@ -75,7 +75,7 @@ const LandingPage = () => (
                             Learn more &rarr;
                         </a>
                     </div>
-                    <div class="col-1-of-2">
+                    <div className="col-1-of-2">
                         <div className="composition">
                             <img src={nat1} alt="Photo1" className="composition__photo composition__photo--p1"/>
                             <img src={nat2} alt="Photo2" className="composition__photo composition__photo--p2"/>
@@ -85,12 +85,12 @@ const LandingPage = () => (
                 </div>
             </section>
 
-            <section class="section-features">
-                <i class="icon-basic-world"></i>
+            <section className="section-features">
+                <i className="icon-basic-world"></i>
                 <div className="row">
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i class="feature-box__icon icon-basic-world"></i>
+                            <i className="feature-box__icon icon-basic-world"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">Explore the world</h3>
                             <p className="feature-box__text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est
@@ -99,7 +99,7 @@ const LandingPage = () => (
                     </div>
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <i className="feature-box__icon icon-basic-compass"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">meet nature</h3>
                             <p className="feature-box__text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est
@@ -108,7 +108,7 @@ const LandingPage = () => (
                     </div>
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i class="feature-box__icon icon-basic-map"></i>
+                            <i className="feature-box__icon icon-basic-map"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">find your way</h3>
                             <p className="feature-box__text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est
@@ -117,7 +117,7 @@ const LandingPage = () => (
                     </div>
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <i className="feature-box__icon icon-basic-heart"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">live a healthier life</h3>
                             <p className="feature-box__text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, modi beatae sed autem, dolorem neque est
@@ -242,7 +242,7 @@ const LandingPage = () => (
                 <div className="row">
                     <div className="story">
                         <figure className="story__shape">
-                            <img class="story__img" src={nat8} alt="person on a tour"/>
+                            <img className="story__img" src={nat8} alt="person on a tour"/>
                             <figcaption className="story__caption">mary smith</figcaption>
                         </figure>
                         <div className="story__text">
@@ -256,7 +256,7 @@ const LandingPage = () => (
                 <div className="row">
                     <div className="story">
                         <figure className="story__shape">
-                            <img class="story__img" src={nat9} alt="person on a tour"/>
+                            <img className="story__img" src={nat9} alt="person on a tour"/>
                             <figcaption className="story__caption">jack wilson</figcaption>
                         </figure>
                         <div className="story__text">
