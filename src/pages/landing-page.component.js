@@ -84,21 +84,21 @@ const LandingPage = () => (
 
                             <img src={nat1Large} 
                                 srcset={`${nat1Small} 300w, ${nat1Large} 1000w`} 
-                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo1"
                                 className="composition__photo composition__photo--p1"
                             />
 
                             <img src={nat2Large} 
                                 srcset={`${nat2Small} 300w, ${nat2Large} 1000w`} 
-                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo2"
                                 className="composition__photo composition__photo--p2"
                             />
 
                             <img src={nat3Large} 
                                 srcset={`${nat3Small} 300w, ${nat3Large} 1000w`} 
-                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo3"
                                 className="composition__photo composition__photo--p3"
                             />
