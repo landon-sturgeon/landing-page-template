@@ -3,12 +3,16 @@ import React from "react";
 import Button from "../components/button.component";
 
 import logoWhite from "../assets/img/logo-white.png";
-import nat1 from "../assets/img/nat-1-large.jpg";
-import nat2 from "../assets/img/nat-2-large.jpg";
-import nat3 from "../assets/img/nat-3-large.jpg";
+import nat1Large from "../assets/img/nat-1-large.jpg";
+import nat2Large from "../assets/img/nat-2-large.jpg";
+import nat3Large from "../assets/img/nat-3-large.jpg";
+import nat1Small from "../assets/img/nat-1.jpg";
+import nat2Small from "../assets/img/nat-2.jpg";
+import nat3Small from "../assets/img/nat-3.jpg";
 import nat8 from "../assets/img/nat-8.jpg";
 import nat9 from "../assets/img/nat-9.jpg";
-import logoGreen from "../assets/img/logo-green-2x.png";
+import logoGreen2x from "../assets/img/logo-green-2x.png";
+import logoGreen1x from "../assets/img/logo-green-1x.png";
 
 const LandingPage = () => (
     <div>
@@ -77,9 +81,28 @@ const LandingPage = () => (
                     </div>
                     <div className="col-1-of-2">
                         <div className="composition">
-                            <img src={nat1} alt="Photo1" className="composition__photo composition__photo--p1"/>
-                            <img src={nat2} alt="Photo2" className="composition__photo composition__photo--p2"/>
-                            <img src={nat3} alt="Photo3" className="composition__photo composition__photo--p3"/>
+
+                            <img src={nat1Large} 
+                                srcset={`${nat1Small} 300w, ${nat1Large} 1000w`} 
+                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                alt="Photo1"
+                                className="composition__photo composition__photo--p1"
+                            />
+
+                            <img src={nat2Large} 
+                                srcset={`${nat2Small} 300w, ${nat2Large} 1000w`} 
+                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                alt="Photo2"
+                                className="composition__photo composition__photo--p2"
+                            />
+
+                            <img src={nat3Large} 
+                                srcset={`${nat3Small} 300w, ${nat3Large} 1000w`} 
+                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                alt="Photo3"
+                                className="composition__photo composition__photo--p3"
+                            />
+
                         </div>
                     </div>
                 </div>
@@ -320,7 +343,14 @@ const LandingPage = () => (
             </section>
             <footer className="footer">
                 <div className="footer__logo-box">
-                    <img src={logoGreen} alt="Full logo" className="footer__logo"/>
+                    <source srcset={`${logoGreen1x} 1x, ${logoGreen2x} 2x`}
+                        media="(max-width: 37.5em)"/>
+                    <img 
+                        srcset={`${logoGreen1x} 1x, ${logoGreen2x} 2x`} 
+                        alt="Full logo" 
+                        className="footer__logo"
+                        src={logoGreen2x}
+                    />
                 </div>
                 <div className="row">
                     <div className="col-1-of-2">
