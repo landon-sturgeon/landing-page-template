@@ -32,5 +32,9 @@ html {
     @include respond(big-desktop) {
         font-size: 75%;
     }
+}
 
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
 }
